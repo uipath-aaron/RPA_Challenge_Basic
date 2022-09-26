@@ -1,0 +1,70 @@
+{
+  "name": "RPA_Challenge_Basic",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "AuthorizeNet": "[2.0.3]",
+    "AuthorizeNetLite": "[3.0.4]",
+    "ElementBlue.EpicOnFHIRInteroperability.Activities": "[1.0.1]",
+    "UiPath.Database.Activities": "[1.7.0]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.HL7.FHIR.Activities": "[1.0.0]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.Oracle.IntegrationCloud.Process.Activities": "[1.1.1]",
+    "UiPath.OracleNetSuite.Activities": "[1.2.3]",
+    "UiPath.OracleNetSuite.IntegrationService.Activities": "[4.0.1]",
+    "UiPath.Salesforce.Activities": "[1.8.0]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
+    "UiPath.Word.Activities": "[1.10.1]",
+    "UiPathTeam.AttendedRobotStatus.Activities": "[1.0.30]",
+    "UiPathTeam.Healthcare.HL7FHIR.Activities": "[1.0.0.11]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "834146bd-be9c-4fb1-9d9a-e955c7b34df7",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
